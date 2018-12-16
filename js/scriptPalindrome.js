@@ -13,11 +13,7 @@ function isPalindrome(str) {
   return result;
 }
 
-test = isPalindrome('Анна');
-test2 = isPalindrome('оно');
-test3 = isPalindrome(' А роза упала на лапу Азора');
-
-console.log(test);
-console.log(test2);
-console.log(test3);
+console.log(isPalindrome('Анна'));
+console.log(isPalindrome('оно'));
+console.log(isPalindrome(' А роза упала на лапу Азора'));
 
