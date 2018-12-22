@@ -2,12 +2,11 @@
 function isPalindrome(str) {
   str = str.toLowerCase().split(' ').join('');
   var strLen = str.length;
-  var result = false;
+  var result = true;
   for (var i = 0; i < strLen; i++) {
-    if (str[i] === str[strLen - 1 - i]) {
-      result = true;
-    } else {
+    if (str[i] !== str[strLen - 1 - i]) {
       result = false;
+      break;
     }
   }
   return result;
