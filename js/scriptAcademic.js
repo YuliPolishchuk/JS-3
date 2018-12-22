@@ -7,8 +7,8 @@ var academicPerfomance = {
 
 var max = -Infinity;
 var maxName = '';
-for(var name in academicPerfomance) {
-  if(max < academicPerfomance[name]) {
+for (var name in academicPerfomance) {
+  if (max < academicPerfomance[name]) {
     max = academicPerfomance[name];
     maxName = name;
   }
