@@ -9,7 +9,7 @@ function getBestResultAndShowAllREsults(numberCandy) {
   }
   return max; 
 }
-console.log('Наилучший результат: '+ max);
+console.log('Наилучший результат: ' + max);
 console.log('Всего проведено исследований: ' + numberCandy.length);
 
 function indexBestResult(numberCandy, max) {
