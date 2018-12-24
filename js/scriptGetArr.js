@@ -11,7 +11,7 @@ function getMaxSumSub(arr) {
     }
     sum = 0;
   }
-  return (max > 0) ? max: -1;
+  return (max > 0) ? max : -1;
 }
 console.log(getMaxSumSub([1, 34, -43, 24, 42, 2]));
 console.log(getMaxSumSub([1, -2, 3, 4, -9, 6]));
