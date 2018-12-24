@@ -41,8 +41,8 @@
   }
 };
  
- car.isIgnition();
- car.start();
- car.stop();
- car.isPetrol();
+car.isIgnition();
+car.start();
+car.stop();
+car.isPetrol();
  
