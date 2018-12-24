@@ -14,7 +14,7 @@
     if (this.ignition) {
       console.log('Машина ' + this.brand + ' цвета - ' + this.color + ' поехала');
     } else {
-      console.log('Включите вначале зажигание');
+        console.log('Включите вначале зажигание');
     }
   },
 
@@ -23,7 +23,7 @@
       this.ignition = false;
       console.log('Машинка остановилась');
     } else {
-      console.log('Зажигание и так выключено');
+        console.log('Зажигание и так выключено');
     }
   },
 
@@ -31,7 +31,7 @@
     if (this.amountPetrol > 0) {
       console.log(this.ignition);
     } else {
-      console.log('Нужно заправить автомобиль');
+        console.log('Нужно заправить автомобиль');
     }
   },
 
