@@ -37,9 +37,9 @@
 
   toTankUpCar: function() {
     this.amountPetrol = 10;
-    console.log('Машинка заправилась')
-    }
-  };
+    console.log('Машинка заправилась');
+  }
+};
  
  car.isIgnition();
  car.start();
